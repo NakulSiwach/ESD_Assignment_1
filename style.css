@@ -1,5 +1,6 @@
 body{
     margin-top: 0%;
+    margin-bottom: 0%;
 }
 body{
     margin: 0%;
@@ -83,12 +84,13 @@ body{
     /* background-repeat: no-repeat;
     background-size: cover; */
     /* background-color: antiquewhite; */
-    height:100vh;
+    height:110vh;
 }
 
 .page2header{
     text-align: center;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
+    /* padding-top: 5vh;     */
 }
 
 .cardHolder{
@@ -159,3 +161,14 @@ body{
     position: inherit;
 }
 
+.footer{
+    display: flex;
+    background-color: tomato;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+}
