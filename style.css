@@ -83,6 +83,49 @@ body{
 .page2{
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: antiquewhite;
     height:100vh;
 }
+
+.page2header{
+    text-align: center;
+}
+
+.cardHolder{
+    background-color:rgb(249, 203, 134);
+    text-align: center;
+    
+}
+
+.cardRow1{
+    margin: 30px 70px 10px 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    /* margin-top: 5vh; */
+}
+
+.cardRow2{
+    margin: 20px 70px 10px 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color:blue;
+    /* margin-top: 5vh; */
+}
+
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    height: 35vh;
+    width: 30vh;
+}
+.innerCard{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 35vh;
+    width: 30vh;
+    border-radius: 50% 50% 10% 10%  ;
+}
+
 
