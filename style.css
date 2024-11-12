@@ -68,7 +68,6 @@ body{
 }
 .mainpageinfo p{
     font-size: 20px;
-    margin-top: -20px;
 }
 .mainpageinfo button{
     background-color: rgb(248, 55, 55);
@@ -81,51 +80,82 @@ body{
     
 }
 .page2{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: antiquewhite;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color: antiquewhite; */
     height:100vh;
 }
 
 .page2header{
     text-align: center;
+    margin-top: 5vh;
 }
 
 .cardHolder{
-    background-color:rgb(249, 203, 134);
+    /* background-color:rgb(249, 203, 134); */
     text-align: center;
     
 }
 
 .cardRow1{
-    margin: 30px 70px 10px 70px;
+    margin: 30px 100px 10px 100px;
     display: flex;
     justify-content: space-around;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* margin-top: 5vh; */
 }
 
 .cardRow2{
-    margin: 20px 70px 10px 70px;
+    margin: 10px 100px 10px 100px;
     display: flex;
     justify-content: space-around;
-    background-color:blue;
+    /* background-color:blue; */
     /* margin-top: 5vh; */
 }
 
 
 .card{
     background-color: white;
-    border: 1px solid black;
-    height: 35vh;
-    width: 30vh;
+    border: 2px solid rgb(231, 227, 227);
+    height: 40.5vh;
+    width: 30.5vh;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 2px 2px; */
 }
 .innerCard{
-    background-color: aqua;
-    border: 1px solid black;
-    height: 35vh;
+    /* background-color: aqua; */
+    border: 2px solid rgb(255, 204, 0);
+    /* background-color: rgb(233, 174, 66); */
+    background-image: radial-gradient(rgb(255, 132, 0), rgb(255, 204, 0));
+    height: 40vh;
+    margin: auto;
     width: 30vh;
-    border-radius: 50% 50% 10% 10%  ;
+    border-radius: 50% 50% 5% 5%  ;
+}
+.cardImage{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.cardImage img{
+    width: 32vh;
+    height: 13vh;
+    position: static;
+    margin-top: 20px;
+    margin-left: -1.5vh;
+
+}
+.innerCard h1{
+
 }
 
+
+.checked {
+    color: red;
+}
+.submitBtn{
+    background-color: tomato;
+    color: red;
+    position: inherit;
+}
 
